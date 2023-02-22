@@ -1,0 +1,92 @@
+body{
+    /* because sometime the browser add up the default margin which i dont want so i order to nutrilize it i have initilize it with zero */
+    margin:0; 
+    /* to provide padding to all element from the borders of the webpage. */
+    padding:10px; 
+    /* now here i am setting the min-width because i dont want my chrome extention to be small than my min-width so to do that  */
+    min-width:400px;
+}
+#save_el{
+    background-color:#5f9341;
+    color:yellow;
+    border-radius:10px;
+    display:inline;
+    margin-top:10px;
+    font-weight:bolder;
+    font-family:Arial, Helvetica, sans-serif;
+    padding:10px;
+    border:1px solid #5f9341;
+}
+#save_el:hover{
+    border:2px solid whitesmoke;
+    color:white;
+    border-radius:30px;
+    cursor:pointer; 
+}
+input{
+    border:2px solid green;
+    /* if we set the widht 100% now it will take total of 100%+10px+10px space and will overflow the webpage. */
+    width:100%;
+    padding:10px;
+    /* so avoid that i  am going to use box-sizing property and set it to border-box so it will take space as per the border not to the content box . */
+    box-sizing:border-box;
+    
+}
+input:hover{
+    border:4px solid aqua;
+    box-shadow:2px 2px aqua;
+}
+
+#delete_el{
+    background-color:white;
+    color:#5f9341;
+    border-radius:10px;
+    display:inline;
+    margin-top:10px;
+    font-weight:bolder;
+    font-family:Arial, Helvetica, sans-serif;
+    padding:10px;
+    margin-left:10px;
+    border:1px solid #5f9341;
+}
+#delete_el:hover{
+    border:1px solid #5f9341;
+    background-color: #5f9341;
+    border-radius: 30px;
+    cursor:pointer;
+    font-weight:bolder;
+    color:whitesmoke;
+}
+
+#tab_el{
+    background-color:#5f9341;
+    color:yellow;
+    border-radius:10px;
+    display:inline;
+    margin-top:10px;
+    font-weight:bolder;
+    font-family:Arial, Helvetica, sans-serif;
+    padding:10px;
+    border:1px solid #5f9341;
+}
+#tab_el:hover{
+    border-radius:30px;
+    color:snow;
+}
+
+/* now to style ul li and anchor tag. */
+ul{
+    /* padding-left:0; */
+    list-style:circle;
+}
+li{
+    padding-top:3px;
+}
+a{
+    color:#5f9341;
+}
+a:hover{
+    color:royalblue;
+}
+
+
